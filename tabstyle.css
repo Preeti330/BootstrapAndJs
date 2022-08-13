@@ -1,0 +1,256 @@
+.proftfolo h1 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    padding-top: 10px;
+
+}
+
+.proftfolo p {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+ul {
+    text-decoration: none;
+    display: block;
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+    padding: unset;
+
+}
+
+li {
+    display: inline-block;
+    padding: 15px;
+    /* background-color: lightskyblue; */
+    size-adjust: 50px;
+    border-radius: 30%;
+}
+
+a {
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.nav {
+    align-items: center;
+    text-align: center;
+
+}
+
+.img {
+    width: 50px;
+}
+
+/*        .col-lg-4 {
+    border: 2px;
+    border-color: brown;
+    border-style: solid;
+   
+}
+*/
+.app-img img {
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+
+}
+
+.app-img {
+    position: relative;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.proftfolo .col-lg-6 img {
+    width: 500px;
+    height: 350px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.overly {
+    width: 280px;
+    height: 330px;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+    padding: 7px 0;
+    margin-left: 10px;
+    background: linear-gradient(rgba(210, 204, 204, 0.5), rgba(8, 8, 8, 0.7));
+    opacity: 0;
+    transition: 1s;
+    border-radius: 40px;
+
+}
+
+
+.app-img-text {
+    color: aliceblue;
+    position: absolute;
+    opacity: 0;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    transform: translate(10%);
+    bottom: -150px;
+}
+
+.app-img .app-img-text {
+    padding-bottom: 50%;
+
+}
+
+.app-img-text h1 {
+    font-weight: 800;
+    font-style: oblique;
+    font-family: monospace;
+
+}
+
+
+.app-img-text p {
+    font-weight: 300;
+    font-style: oblique;
+    font-family: "Raleway", sans-serif;
+
+}
+
+.app-img:hover .overly {
+    opacity: 1;
+    transition: 1s;
+}
+
+.app-img:hover .app-img-text {
+    opacity: 1;
+    transition: 1s;
+}
+
+.app-img video {
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    background: linear-gradient(to bottom right,rgba(238, 224, 224, 0.7),rgba(244, 240, 240, 0.7) ,rgba(238, 224, 224, 0.7));
+}
+
+
+.app-video-text {
+    width: 77%;
+    height: 100px;
+    margin-left: 10px;
+    background: linear-gradient(rgba(54, 49, 137, 0.5), rgba(247, 250, 252, 0.7));
+    border-radius: 20px;
+    padding-bottom: 50px;
+}
+
+.app-video-text-tag h1 {
+    font-weight: 800;
+    font-style: oblique;
+    font-family: monospace;
+    align-items: auto;
+    text-align: auto;
+    font-size: 25px;
+    padding-left: 30px;
+    color: rgb(17, 17, 17);
+}
+
+.app-video-text-tag {
+    bottom: -110%;
+    cursor: pointer;
+    margin-right: 10px;
+    padding-right: 10px;
+    opacity: 1;
+}
+
+
+
+.app-video-text :hover .app-img-text {
+    opacity: 1;
+
+    color: white;
+    transition: 1s;
+}
+
+.app_music{
+    width: 350px;
+    height: 300px;
+    position: relative;
+    /* border-style: solid;
+    border-color: rgb(236, 14, 14); */
+}
+
+
+ .app-music-img{
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    cursor: pointer;
+}
+.app-music-img .img{
+    width: 100px;
+    height: 100px;
+    align-items: left;
+    display:inline-block
+}
+.app-music-img-txt{
+    position: absolute;
+    display:inline-block;
+    /* border-style: solid;
+    border-color: rgb(14, 236, 47); */
+    padding-top: 27px;
+  
+}
+
+.app-music-img h2{
+    font-weight: 800;
+    font-size: 15px;
+    text-align: justify;
+    padding: 20px;
+    
+} 
+
+.app-music-icon {
+    width: 40px;
+    height: 36px;
+    background-color: bisque;
+    padding: 10px;
+    margin-left: 25px;
+    border-radius: 50%;
+}
+
+.app-music-icon i{
+    color:rgba(255, 119, 0, 0.884);
+    font-size: 20px;
+}
+
+.app-music-img p{
+    font-weight: 400;
+    font-size: 10px;
+    text-align: justify;
+    margin-top: -9px;
+    padding-left: 20px;
+    
+} 
+
+.app-music-audio{
+    padding-top: 10px;
+}
